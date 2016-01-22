@@ -14,6 +14,12 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+# Useless folders
+.metadata/*
+.recommenders/*
+hs_err_pid*
+RemoteSystemsTempFiles/*
+
 # Windows shortcuts
 *.lnk
 
