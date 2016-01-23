@@ -1,0 +1,5 @@
+Interessante Links:
+
+Python Dictionaries
+http://www.python-kurs.eu/dictionaries.php
+ab nächstem commit kommt aus der Datenbank ein Dictionary raus. (verwende ab jetzt die Cursorklasse "DictCursor")
