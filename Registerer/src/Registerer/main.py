@@ -3,17 +3,19 @@
 '''
 Hauptprogramm
 '''
-import qrcode
-while (True):
-    print "1: qrcode erstellen"
-    print "2: qrcode anzeigen"
-    print "3: exit"
-    select=int(raw_input("Treffen Sie eine Auswahl: "))
-    if select == 1:
-        qrcode.erzeugenRawIn()
-    elif select == 2:
-        result=qrcode.lesen().strip()
-        print result
-    elif select == 3:
-        print "beende Programm..."
-        break
+import qrcode as qc
+import dbTools as dbt
+import Klassen as k
+
+d = k.Database()
+c = k.Course(5, "test", "testteacher", "2015-05-22", "R001")
+c.loginStudent(5)
+c.loginStudent(10)
+c.loginStudent(30)
+c.loginStudent(30)
+print c
+c.checkForDuplicates()
+print c
+c.logoutStudent(5)
+print c
+d.saveCourse(c)
