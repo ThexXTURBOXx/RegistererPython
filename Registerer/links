@@ -3,3 +3,13 @@ Interessante Links:
 Python Dictionaries
 http://www.python-kurs.eu/dictionaries.php
 ab nächstem commit kommt aus der Datenbank ein Dictionary raus. (verwende ab jetzt die Cursorklasse "DictCursor")
+
+rPi Hardware:
+Display:
+http://tutorials-raspberrypi.de/gpio/text-auf-16x2-zeichen-lcd-display-anzeigen-hd44780/
+
+LEDs:
+https://projects.drogon.net/raspberry-pi/gpio-examples/tux-crossing/gpio-examples-1-a-single-led/
+
+Buzzer:
+https://developer-blog.net/hardware/raspberrypi/raspberry-pi-aktiver-buzzer/
