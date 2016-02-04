@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+encoding//src/Registerer/Klassen.py=utf-8
 encoding//src/Registerer/__init__.py=utf-8
+encoding//src/Registerer/dbTools.py=utf-8
+encoding//src/Registerer/main.py=UTF-8
+encoding//src/Registerer/qrcode.py=UTF-8
