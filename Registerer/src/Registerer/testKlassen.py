@@ -3,8 +3,6 @@
 '''
 Hauptprogramm
 '''
-import qrcode as qc
-import dbTools as dbt
 import Klassen as k
 
 d = k.Database()
