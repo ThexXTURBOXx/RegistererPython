@@ -23,12 +23,14 @@ def getRoomID(filename = "room.txt"):
 now = datetime.datetime.now()
 d = k.Database()
 courseActive = False
+currentCourse = None
 while True:
+    print "Started. Waiting for scan."
     scan = qc.lesen()
     scan = scan.split("_")
     if scan[0] == "course":
         if courseActive:
-            pass
+            d.saveCourse(currentCourse)
         else:
             print "Scanned course no. " + scan[1] + "."
             courseID = scan[1]

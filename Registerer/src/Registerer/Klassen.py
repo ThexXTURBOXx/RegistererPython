@@ -30,6 +30,15 @@ class Database(object):
         self.connection.close()
         
         
+    def __str__(self):
+        infoStr = "MySQL Database\n"
+        infoStr += "Name: %s\nHost: %s\nUser: %s\n-----------" % (self.name, self.host, self.user)
+        #with closing(self.connection.cursor()) as c:
+        #    c.execute("SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS;")
+        #    print c.fetchall()
+        return infoStr
+        
+        
     def getStudentList(self):
         """Returns a list of dicts each containing the information of one student."""
         
@@ -77,8 +86,10 @@ class Database(object):
                  + TABLE_NAME = '" + tableName + "' AND COLUMN_NAME = '"\
                  + columnName + "';"
         with closing(self.connection.cursor()) as c:
-            c.execute(query)
+            nbRowsAffected = c.execute(query)
             dtype = c.fetchall()
+            if nbRowsAffected == 0:
+                raise ExecuteError("The given column does not exist.")
             dtype = dtype[0]["DATA_TYPE"]
             return dtype
             
@@ -102,7 +113,7 @@ class Database(object):
             nbRows = c.execute(query)
             values = c.fetchall()
         if nbRows == 0:
-            return -1
+            raise ExecuteError("No entry with the specified ID found.")
         else:            
             return values[0]
         
@@ -116,10 +127,13 @@ class Database(object):
             queryEnd = ") VALUES ("
             for key in entry:
                 queryStart = queryStart + "%s, " % key
-                if self.getDataType(table, key) == "int":
-                    queryEnd = queryEnd + "%s, " % entry[key]
-                else:
-                    queryEnd = queryEnd + "'%s', " % entry[key]        
+                try:           
+                    if self.getDataType(table, key) == "int":
+                        queryEnd = queryEnd + "%s, " % entry[key]
+                    else:
+                        queryEnd = queryEnd + "'%s', " % entry[key]        
+                except ExecuteError:
+                    raise ExecuteError("One or more of the given columns do not exist.")
             queryEnd = queryEnd[:-2] + ");"
             query = queryStart[:-2] + queryEnd
             c.execute(query)
@@ -174,7 +188,7 @@ class Course(object):
     
     def getAttendanceList(self):
         for student in self.attendance:
-            student.update({"course":self.ID, "date":self.date})
+            student.update({"course":self.ID, "date":self.date, "teacher":self.teacher})
         return self.attendance
 
                 

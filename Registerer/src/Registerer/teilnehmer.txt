@@ -1,0 +1,339 @@
+Kategorie
+LEGO Robotics
+Name
+Vorname
+Mobil
+Festnetz
+E-Mail
+Ansprechpartner
+Baier
+Finn
+kA
+kA
+kA
+kA, kA
+Barnholzer
+Merlin
+kA
++49 8652 2223
+kA
+kA, kA
+Beierl
+Kilian
+kA
+kA
+kA
+kA, kA
+Bork
+Christian
+kA
++49 8652 62929
+heidi.walch@gmx.de
+Bork, Heidi
+Bründl
+Julia
++49 151 16152076
+kA
+kA
+kA, kA
+Cavalcante
+Fabian
++49 171 6986830
+kA
+kA
+kA, kA
+Dobrev
+Kevin
++49 173 2069529
+kA
+kA
+kA, kA
+Dugherus
+Raul
+kA
+kA
+kA
+kA, kA
+Dziedzina
+Marvin
+kA
+kA
+kA
+kA, kA
+Eder
+Laurence
+kA
+kA
+kA
+kA, kA
+Eder
+Tim
+kA
+kA
+kA
+kA, kA
+Eismann
+Philipp
+kA
+kA
+kA
+kA, kA
+Fink
+Paul
++49 172 7525681
+kA
+dofink@msn.com
+Fink, Donata
+Flebbe
+Christian
+kA
+kA
+kA
+kA, kA
+Golser
+Thomas
+kA
++49 8650 919991
+kA
+kA, kA
+Graßl
+Tobias
++49 151 53912177
++49 8652 2442
+fewo-villa-flora@web.de
+kA, kA
+Gschossmann
+Antonio
+kA
+kA
+kA
+kA, kA
+Hanke
+Benedikt
+kA
+kA
+kA
+kA, kA
+Hanke
+Christina
+kA
++49 8652 2223
+kA
+kA, kA
+Hanke
+Simon
+kA
+kA
+kA
+kA, kA
+Hingsamer
+Michael
+kA
++4986501377
+travelbixi@yahoo.de
+Hingsamer, Birgit
+Hingsamer
+Raphael
+kA
++4986501377
+travelbixi@yahoo.de
+Hingsamer, Birgit
+Hochreiter
+Patrick
+kA
+kA
+kA
+kA, kA
+Jansen
+Paul
+kA
+kA
+kA
+kA, kA
+Kastner
+Johanna
++49 175 4169259
+kA
+kA
+kA, kA
+Kern
+Max
+kA
+kA
+kA
+kA, kA
+Koll
+Lukas
++49 176 9205858
+kA
+kA
+kA, kA
+Konrad
+Jakob
+kA
++49 8652 976569
+kA
+kA, kA
+Kusztal
+Kamil
+kA
++49 8652 2223
+kA
+kA, kA
+Köppl
+Luca
+kA
+kA
+kA
+kA, kA
+Küpper
+Manuel
++49 173 2069529
+kA
+kA
+kA, kA
+Lindner
+Jakob
+kA
++498650985863
+kA
+Lindner, Heidi
+Marken
+Michelle
++491708939955
++4986504029898
+ambassadorwaters@aol.com
+Wagner, Andrea
+Melzl
+Chiara
++49 171 1155709
+kA
+Dorothea.trixl@t-online.de
+Trixl, Dorothea
+Melzl
+Moritz
++49 171 1155709
+kA
+Dorothea.trixl@t-online.de
+Trixl, Dorothea
+Mexis
+Luca
+kA
++49 8656 685485
+kA
+kA, kA
+Mexis
+Nico
+kA
++49 8656 685485
+kA
+kA, kA
+Mielsch
+Manuel
+kA
+kA
+kA
+kA, kA
+Niedermaier
+Felix
+kA
+kA
+kA
+kA, kA
+Poll
+Lukas
+kA
+kA
+kA
+kA, kA
+Preininger
+Leonhard
++491719449786
++498651718144
+monika.preininger@gmx.de
+Preininger, Monika
+Rasp
+Franz
++49 160 2863281
+kA
+kA
+kA, kA
+Roth
+Johann
+kA
++49 8652 9757919
+kA
+kA, kA
+Schrödl
+Vinzenz
+kA
+kA
+kA
+kA, kA
+Schwaiger
+Rudi
+kA
++49 8652 2525
+kA
+kA, kA
+Schwaiger
+Sara
+kA
++49 8652 2525
+kA
+kA, kA
+Seidinger
+Georg
+kA
+kA
+kA
+kA, kA
+Stadler
+Peter
+kA
+kA
+kA
+kA, kA
+Stele
+Stefan
+kA
+kA
+kA
+kA, kA
+Stepinac
+Gabriel
+kA
++49 8650 9848184
+kA
+kA, kA
+Steuer
+Lars
+kA
+kA
+kA
+kA, kA
+Vogt
+Bastian
+kA
+kA
+kA
+kA, kA
+Vogt
+Fabian
++49 177 8055266
+kA
+kA
+kA, kA
+Zapletal
+Samuel
+kA
++49 8652 6020
+kA
+kA, kA
+von Hoesslin
+Moritz
+kA
+kA
+kA
+kA, kA
+
