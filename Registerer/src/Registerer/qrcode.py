@@ -31,8 +31,8 @@ def lesen():
             print "success"
             print "QR-Code: " + qrcodetext
             if sys=="Windows":
-                subprocess.check_output("Taskkill /F /IM zbarcam.exe", shell=True).decode
+                subprocess.check_output("Taskkill /F /IM zbarcam.exe", shell=True).decode # Windows Prozess Kill
             else:
-                os.killpg(zbarcam.pid, signal.SIGTERM)  # Prozess stoppen
+                os.killpg(zbarcam.pid, signal.SIGTERM)  # Nicht-Windows Prozess Kill
             print "zbarcam erfolgreich gestoppt"
             return qrcodetext
