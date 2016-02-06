@@ -12,8 +12,8 @@ from contextlib import closing
 
         
 def getRoomName(filename = "room.txt"):
-    with closing(open(filename)) as file:
-        return file.readline()
+    with closing(open(filename)) as fileroomname:
+        return fileroomname.readline()
 
 def getRoomID(filename = "room.txt"):
     room = getRoomName(filename)
